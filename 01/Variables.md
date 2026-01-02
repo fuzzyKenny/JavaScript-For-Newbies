@@ -6,7 +6,7 @@ Identifiers usually start with a letter, undersocre (_), or dollar sign($). Subs
 
 Examples of variable names/identifiers: Your_name, _class, $credit, temp99.
 
-JavaScript has three kinds of varibale declarations.
+### JavaScript has three kinds of varibale declarations.
 - var
 - let
 - const
