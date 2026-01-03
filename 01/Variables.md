@@ -27,3 +27,20 @@ A variable may belong to one of the following scopes:
 
 In addition, variables declared with `let` or `const` can belong to an additional scope:
 - Block Scope: For variables declared inside a block `{...}`, scope is limited to that block
+
+## Variable Hoisting
+`var` declared variables are hoisted, meaning the program acts as if variable declarations are moved to the top of their scope before the code runs.
+
+**This is beacause JavaScript first looks for varibale declarations, and only after that does it run the code line by line.**
+
+**The declaration is "hoisted" to the top, but the value assignment is not.**
+
+
+## More about Constants
+The `const` declaration is only used to create read-only named constant variables. Constant variables cannot change value through assignment or be re-declared while the script/program is running.
+
+A constant cannot be declared with the same name as a function or variable in the same scope.
+
+**Important:** `const` only prevents re-assignments, but doesn't prevent mutations. In simple terms, `const` locks the variable name but does not lock the object or data itself meaning changes to the data are allowed.
+
+> `const` protects the reference, not the value.
