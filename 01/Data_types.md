@@ -11,3 +11,11 @@ The latest ECMAScript standard defines eight data types:
   7. *Symbol*: A data type whose instances are unqiue and immutable.
 
 And a non-primitive data type: *Object*
+
+You can use the `typeof` operator to determine the data type of a value.
+
+**Important**: `typeof null` returns `object` because of a historical bug in JavaScript, not because null is actually an object.
+
+
+## Data type conversion
+JavaScript is a dynamically typed language. This means that data types of a variable do not need to be specified with declaration. Data types are also automatically converted as-needed during script execution.
